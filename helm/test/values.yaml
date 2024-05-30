@@ -1,0 +1,18 @@
+app:
+  name: my-quarkus-todo-app
+  namespace: cmoullia
+  virtualMachineName: quarkus-dev
+  virtualMachineNamespace: cmoullia
+  cluster:    #
+
+git:
+  branch: main
+  repo: github.com
+  org: ch007m
+  name: my-quarkus-todo-app
+
+image:
+  url: quay.io/ch007m/my-quarkus-todo-app
+  registry:  # NOT USED
+  organization:  # NOT USED
+  name:  # NOT USED
